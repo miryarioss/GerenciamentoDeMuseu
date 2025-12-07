@@ -1,0 +1,38 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3B2E5A;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.container {    
+    display: grid;  
+    grid-template-columns: 1fr 1fr;        
+    flex-direction: row;   
+    flex-wrap: nowrap;      
+    height: 100vh;
+    background-image: url("../img/background-login.jpg");
+    background-size: cover;
+    background-position: center;   
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    place-items: center; 
+    flex: 1; 
+    padding: 20px;
+}
+
+#formulario{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3B2E5A;
+    border: 20px solid #3B2E5A;
+}
+input{
+    background-color: #969695;
+    border: none;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: #525B6A;
+}
