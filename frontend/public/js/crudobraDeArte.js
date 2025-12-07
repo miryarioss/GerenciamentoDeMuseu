@@ -93,5 +93,5 @@ formulario.addEventListener("submit", async function (e) {
 
 btnSaida.addEventListener("click", function (e) {
     e.preventDefault()
-    window.location.href = "obra.html"
+    window.location.href = "obraDeArte.html"
 })

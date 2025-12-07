@@ -6,7 +6,7 @@ btnvoltar.addEventListener("click", function () {
 });
 
 btninserir.addEventListener("click", function () {
-    window.location.href = "crudobra.html?modo=ins&id=";
+    window.location.href = "crudobraDeArte.html?modo=ins&id=";
 });
 
 window.onload = function () {
@@ -26,11 +26,11 @@ async function excluir(id) {
 }
 
 async function alterar(id) {
-    window.location.href = "crudobra.html?id=" + id + "&modo=upd";
+    window.location.href = "crudobraDeArte.html?id=" + id + "&modo=upd";
 }
 
 async function consultar(id) {
-    window.location.href = "crudobra.html?id=" + id + "&modo=dsp";
+    window.location.href = "crudobraDeArte.html?id=" + id + "&modo=dsp";
 }
 
 async function carregarDados() {
