@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas</title>
+    <link rel="stylesheet" href="css/artista.css">
+    <script src="js/artista.js" defer></script>
+</head>
+<body>
+    <h1>Artistas</h1>
+    <div class="filtros">
+        <label>Nome:</label>
+        <input type="text" name="FiltroNomeArtista" id="filtroNomeArtista">      
+        <button>Filtrar</button>
+    </div>
+    <button id="inserir">Inserir</button>
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>Nacionalidade</th>
+            <th>Data de Nascimento</th>
+            <th>Data de Falecimento</th>
+            <th>Biografia</th>         
+            <th>Estilo Artistico</th>
+            <th>Premios</th>       
+            <th>Website</th>       
+            <th>Periodo Artistico</th>            
+        </thead>
+        <tbody id="linharegistro">
+        </tbody>
+    </table>
+    <button id="voltar">Voltar</button>
+</body>
+</html>

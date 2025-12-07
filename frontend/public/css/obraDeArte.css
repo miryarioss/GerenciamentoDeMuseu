@@ -1,0 +1,16 @@
+.filtros{
+    border: 1px solid black;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    background-color: gray;
+}
+
+table th {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+
+}
