@@ -1,0 +1,58 @@
+body {
+    background-color: #4B0082;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.container{
+    background-color: beige;
+    padding: 15px;
+    border-radius: 7px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filtros {
+    margin-bottom: 20px;
+}
+
+.filtros label {
+    margin-right: 10px;
+}
+
+.filtros input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.filtros button {
+    padding: 5px 10px;
+}
+
+/* Botão Inserir */
+#inserir {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+/* Tabela simples */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Botão Voltar */
+#voltar {
+    padding: 5px 10px;
+}

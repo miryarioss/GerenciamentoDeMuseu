@@ -1,49 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Obra de Arte</title>
-    <link rel="stylesheet" href="css/crud.css">
-    <script src="js/crudobraDeArte.js" defer></script>
-</head>
-<body>
-    <h1>Cadastro de Obra de Arte</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Obra de Arte</title>
+        <link rel="stylesheet" href="css/crud.css">
+        <script src="js/crudobraDeArte.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cadastro de Obra de Arte</h1>
+            <form id="formulario">
 
-    <form id="formulario">
+                <label class="label-input" for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo">
 
-        <label class="label-input" for="titulo">Título:</label>
-        <input type="text" id="titulo" name="titulo">
+                <label class="label-input" for="anoCriacao">Ano de Criação:</label>
+                <input type="number" id="anoCriacao" name="anoCriacao">
 
-        <label class="label-input" for="anoCriacao">Ano de Criação:</label>
-        <input type="number" id="anoCriacao" name="anoCriacao">
+                <label class="label-input" for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao"></textarea>
 
-        <label class="label-input" for="descricao">Descrição:</label>
-        <textarea id="descricao" name="descricao"></textarea>
+                <label class="label-input" for="tecnicaPintura">Técnica de Pintura:</label>
+                <input type="text" id="tecnicaPintura" name="tecnicaPintura">
 
-        <label class="label-input" for="tecnicaPintura">Técnica de Pintura:</label>
-        <input type="text" id="tecnicaPintura" name="tecnicaPintura">
+                <label class="label-input" for="dimensoes">Dimensões:</label>
+                <input type="text" id="dimensoes" name="dimensoes">
 
-        <label class="label-input" for="dimensoes">Dimensões:</label>
-        <input type="text" id="dimensoes" name="dimensoes">
+                <label class="label-input" for="material">Material:</label>
+                <input type="text" id="material" name="material">
 
-        <label class="label-input" for="material">Material:</label>
-        <input type="text" id="material" name="material">
+                <label class="label-input" for="localizacaoDentroMuseu">Localização no Museu:</label>
+                <input type="text" id="localizacaoDentroMuseu" name="localizacaoDentroMuseu">
 
-        <label class="label-input" for="localizacaoDentroMuseu">Localização no Museu:</label>
-        <input type="text" id="localizacaoDentroMuseu" name="localizacaoDentroMuseu">
+                <label class="label-input" for="artistaId">Artista:</label>
+                <select id="artistaId" name="artistaId"></select>
 
-        <label class="label-input" for="artistaId">Artista:</label>
-        <select id="artistaId" name="artistaId"></select>
+                <label class="label-input" for="museuId">Museu:</label>
+                <select id="museuId" name="museuId"></select>
 
-        <label class="label-input" for="museuId">Museu:</label>
-        <select id="museuId" name="museuId"></select>
-
-        <div>
-            <input type="submit" value="Gravar" id="btnGravar">
-            <button id="btnSaida">Sair</button>
+                <div>
+                    <input type="submit" value="Gravar" id="btnGravar">
+                    <button id="btnSaida">Sair</button>
+                </div>
+            </form>
         </div>
-    </form>
 
-</body>
+    </body>
 </html>

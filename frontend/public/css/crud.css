@@ -1,3 +1,46 @@
-.label-input{
-    display: block;
+body {
+    background-color: #4B0082;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh; 
 }
+.container{
+    background-color: beige;
+    padding: 15px;
+    border-radius: 7px;
+    width: 25%;
+    grid-template-columns: 1fr 1fr;
+}
+#formulario{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3B2E5A;
+    border: 20px solid #3B2E5A;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{   
+  grid-column: 1;
+  width: 50%;
+  /* IMPORTANTE: evitar que algum CSS externo force block + full width */
+  display: flex;     /* impede o 100% automático do block */
+  width: 100%;               /* ocupa só a coluna do grid (240px) */
+  text-align: right;  
+}
+input{   
+    display: block; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+

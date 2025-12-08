@@ -14,17 +14,16 @@
     align-items: center;
     height: 98vh;
     flex-wrap: wrap;
-    
 }
 
 .card{   
     border: 2px dashed white; 
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;    /* Centraliza verticalmente */
+    justify-content: center; 
+    align-items: center;   
     width: 150px;
     height: 200px;
-    background-color: #4A5568; /* Cor do fundo */
+    background-color: #4A5568; 
     border-radius: 12px;
 }
 .card:hover{
@@ -35,8 +34,8 @@
 }
 
 .card:hover a {
-  color: #47515f;                     /* texto muda junto */
-  background: #e8ecf2;                /* opcional: “pill” atrás do texto */
+  color: #47515f;
+  background: #e8ecf2;             
 }
 
 a{
